@@ -1,0 +1,24 @@
+{
+  "name": "yoda",
+  "version": "1.0.0",
+  "bin": {
+    "yoda": "bin/yoda-cli.js"
+  },
+  "main": "lib/yoda-lib.js",
+  "preferGlobal": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dan Shahin <dan@danshahin.com> (http://www.danshahin.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "command-line-args": "2.1.6",
+    "inquirer": "0.12.0",
+    "jsforce": "1.5.1",
+    "keychain": "1.0.0",
+    "path": "0.12.7",
+    "promise": "7.1.1"
+  },
+  "devDependencies": {},
+  "description": "Salesforce session management"
+}
