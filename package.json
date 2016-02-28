@@ -1,5 +1,5 @@
 {
-  "name": "yoda",
+  "name": "yoda-session",
   "version": "1.0.0",
   "bin": {
     "yoda": "bin/yoda-cli.js"
