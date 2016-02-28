@@ -1,6 +1,6 @@
 {
   "name": "yoda-session",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "bin": {
     "yoda": "bin/yoda-cli.js"
   },
@@ -11,6 +11,10 @@
   },
   "author": "Dan Shahin <dan@danshahin.com> (http://www.danshahin.com/)",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dshahin/yoda-session.git"
+  },
   "dependencies": {
     "command-line-args": "2.1.6",
     "inquirer": "0.12.0",
