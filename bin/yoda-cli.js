@@ -2,4 +2,8 @@
 
 var yoda = require('../lib/yoda-lib');
 
-yoda.main();
+yoda.main().then(function(userInfo){
+	yoda.userGreeting(userInfo);
+}).catch(function(error){
+	console.error('error');
+});
